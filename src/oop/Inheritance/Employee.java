@@ -37,4 +37,17 @@ public class Employee {
     public void setId(int id) {
         this.id = id;
     }
+
+
+    public void printDataEmpolyee(){
+
+        System.out.println("Type Employee Has Id : "+this.getId()
+                +" and Name is  "+this.getName()+" and Salary is"+this.getSalary()
+                );
+    }
+
+    public static void printCounterEmpolyee(){
+
+       System.out.println("IN THE Parent ");
+    }
 }

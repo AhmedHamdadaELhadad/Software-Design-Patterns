@@ -4,6 +4,7 @@
     public int method(A a) {
         return 2;
     }
+
 }
 
   class AX extends A {
@@ -25,7 +26,7 @@ public class Main {
 
 
 
-        System.out.println(a2.method(ax)); // Line 4
+        System.out.println(a2.method(ax));
 
     }
 }
