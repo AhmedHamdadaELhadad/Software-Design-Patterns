@@ -10,7 +10,7 @@ public class DemoPolymorphism {
         * must have inhertance
         * empManger have olny apporties in Employee
         * But In heap memory Have apporties belonge Manger
-        * this Example canot call addres
+        * this Example canot call address
         *  */
 
         Employee empManger=new Manger();
